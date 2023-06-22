@@ -1,0 +1,9 @@
+.react-vertical-timeline.vertical-timeline::before {
+    width: 40px !important;
+    background-color: #01be96;
+  }
+  .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element-content li {
+    font-size: 13px;
+    font-size: .8125rem;
+    font-weight: 500;
+}
