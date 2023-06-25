@@ -21,6 +21,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import C from "./tech/C.png";
+import Cpp from "./tech/cpp.png";
+import py from "./tech/python.png";
+import ubuntu from "./tech/ubuntu.png";
+import nmap from "./tech/nmap.png";
+import ps from "./tech/ps.png";
+import ai from "./tech/ai.png";
+import fusion360 from "./tech/fusion360.png";
+import arduino from "./tech/arduino.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,7 +42,16 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
-  creator,C,
+  creator,
+  C,
+  Cpp,
+  py,
+  ubuntu,
+  nmap,
+  ps,
+  ai,
+  fusion360,
+  arduino,
   mobile,
   web,
   github,

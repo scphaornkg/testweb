@@ -19,10 +19,12 @@ function App() {
         <Awards />
       </LightColor>
       <TimeLine/>
+      <Tech />
+      <Clients
+      />
       <LightColor>
         <Footer />
       </LightColor>
-      <Tech />
     </Container>
   );
 }

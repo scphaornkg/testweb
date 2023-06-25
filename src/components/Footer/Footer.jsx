@@ -101,6 +101,11 @@ const Footer = () => {
               </span>
             </Zoom>
           </div>
+          <Texts>
+          <button onClick={() => {
+            window.location.href = 'https://hackmd.io/@aM5iwLWLRY64cIqXBzqPFA/H1lVZwQO3';
+          }}>Teaching</button>
+          </Texts>
         </div>
         {/* <Fade>
           <ArrowUp onClick={scrollUp}>
@@ -297,4 +302,20 @@ const Form = styled.div`
       }
     }
   }
+`;
+
+const Texts = styled.div`
+button {
+  padding: 0.7rem 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  background-color: #01be96;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  filter: drop-shadow(0px 10px 10px #01be9551);
+  :hover {
+    filter: drop-shadow(0px 10px 10px #01be9570);
+  }
+}
 `;

@@ -3,6 +3,14 @@ import {
   backend,
   creator,
   C,
+  Cpp,
+  py,
+  ubuntu,
+  nmap,
+  ps,
+  ai,
+  fusion360,
+  arduino,
   web,
   javascript,
   typescript,
@@ -70,24 +78,28 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "C",
     icon: C,
+  },
+  {
+    name: "Cpp",
+    icon: Cpp,
+  },
+  {
+    name: "py",
+    icon: py,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "ubuntu",
+    icon: ubuntu,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "arduino",
+    icon: arduino,
   },
   {
     name: "Node JS",
@@ -98,16 +110,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "ps",
+    icon: ps,
   },
   {
-    name: "git",
-    icon: git,
+    name: "ai",
+    icon: ai,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "fusion360",
+    icon: fusion360,
   },
   {
     name: "docker",
