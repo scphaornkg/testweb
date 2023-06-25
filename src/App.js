@@ -20,8 +20,8 @@ function App() {
       </LightColor>
       <TimeLine/>
       <Tech />
-      <Clients
-      />
+      {/* <Clients
+      /> */}
       <LightColor>
         <Footer />
       </LightColor>
