@@ -46,7 +46,7 @@ const Services = () => {
             direction="right"
             position={"right"}
             icon={
-              <img src={process.env.PUBLIC_URL + '/icon/C.png'} className="icon" />
+              <img src={process.env.PUBLIC_URL + '/icon/cpp.png'} className="icon" />
             }
           >
 
