@@ -9,7 +9,7 @@ import { Zoom } from 'react-awesome-reveal';
 // `;
 const Services = () => {
   return (
-    <Container>
+    <Container id='Timeline'>
       <CenteredTitle>
         <Zoom>
           <h1>I.T. <span className="green">Learning Journey</span></h1>
@@ -67,10 +67,10 @@ const Services = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             direction="right"
             icon={
-              <img src={process.env.PUBLIC_URL + '/icon/docker.png'} className="icon" />
+              <img src={process.env.PUBLIC_URL + '/icon/ev3.png'} className="icon" />
             }
           >
-            <h3 className="vertical-timeline-element-title">Study Docker, Arduino</h3>
+            <h3 className="vertical-timeline-element-title">Study Ev3, Arduino</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">Study C, EV3</h4> */}
             <p>
               By the end of last year, I had already prepared for this year's EV3 BottleSumo competition. Unfortunately, the sudden outbreak of the pandemic prevented me from participating. During the pandemic, I didn't waste any time and continued studying C++. Meanwhile, my cybersecurity teacher asked me to write a port scanner using the C language. After a lot of research, I eventually succeeded in creating one using sockets. Along the way, I learned a lot about network fundamentals, such as TCP 3-way handshake and the OSI model. Because I felt that the port scanner was inefficient, I also learned multi-threading to increase its efficiency.
@@ -88,7 +88,7 @@ const Services = () => {
             direction="right"
             position={"right"}
             icon={
-              <img src={process.env.PUBLIC_URL + '/icon/cpp.png'} className="icon" />
+              <img src={process.env.PUBLIC_URL + '/icon/data-structure.png'} className="icon" />
             }
           >
             <h3 className="vertical-timeline-element-title">Study C++</h3>
@@ -163,7 +163,7 @@ const Services = () => {
               <img src={process.env.PUBLIC_URL + '/icon/nodejs.png'} className="icon" />
             }
           >
-            <h3 className="vertical-timeline-element-title">Study Node js, React js</h3>
+            <h3 className="vertical-timeline-element-title">Study Node js, React js, Docker</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">Study C, EV3</h4> */}
             <p>
               Having become fairly familiar with front-end web development, I began learning about the backend. As more and more people started using Node.js, I chose to learn Node.js instead of PHP. I also created a project using Arduino DHT11, ThingSpeak, and Node.js to collect real-time meteorological data at school, which calculated and displayed the perceived temperature on a webpage.

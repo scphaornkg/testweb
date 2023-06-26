@@ -15,9 +15,9 @@ const Header = () => {
             </Logo>
             <Nav bar={bar}>
                 <span onClick={() => setBar(!bar)}><a href="#home">Home</a></span>
-                <span onClick={() => setBar(!bar)}><a href="#service">Skills</a></span>
+                <span onClick={() => setBar(!bar)}><a href="#skill">Skills</a></span>
                 <span onClick={() => setBar(!bar)}><a href="#Award">Award</a></span>
-                <span onClick={() => setBar(!bar)}><a href="#client">Testimonials</a></span>
+                <span onClick={() => setBar(!bar)}><a href="#Timeline">Timeline</a></span>
                 <span onClick={() => setBar(!bar)}><a href="#footer">Portfolio</a></span>
             </Nav>
             <div

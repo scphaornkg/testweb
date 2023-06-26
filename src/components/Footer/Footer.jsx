@@ -4,10 +4,19 @@ import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
-import { BsFacebook, BsSlack } from "react-icons/bs";
+import { BsFacebook, BsSlack, BsInstagram } from "react-icons/bs";
 import { FiMail, FiInstagram } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 import emailjs from '@emailjs/browser';
+
+function refreshPage() {
+  setTimeout(function() {
+    window.location.reload(false);
+  }, 1000);  // 1000 milliseconds = 1 second
+}
+
+
+
 const Footer = () => {
   const scrollUp = () => {
     window.scroll({
@@ -22,14 +31,17 @@ const Footer = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+  
     emailjs.sendForm('service_596k5la', 'template_e427h4l', form.current, 'cdmnMgMWksuWakBIU')
       .then((result) => {
         console.log(result.text);
+        refreshPage(); // Refresh the page after the email is successfully sent
       }, (error) => {
         console.log(error.text);
+        refreshPage(); // Refresh the page even if there's an error
       });
   };
+  
   return (
     <Container id="footer">
       <Profile>
@@ -74,29 +86,23 @@ const Footer = () => {
           <div className="icons">
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://github.com/scphaornkg">
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
+            
             <Zoom>
               <span>
-                <a href="/">
-                  <AiFillLinkedin />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a href="/">
+                <a href="https://www.facebook.com/chongpuitaiwan">
                   <BsFacebook />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
-                  <BsSlack />
+                <a href="https://www.instagram.com/paku.su/">
+                  <BsInstagram/>
                 </a>
               </span>
             </Zoom>
@@ -135,7 +141,7 @@ const Footer = () => {
               </span>
               <textarea cols="30" rows="10" name="message" placeholder="Message..."></textarea>
             </div>
-            <button value="Send" onClick={refreshPage} >Submit</button>
+            <button value="Send" >Submit</button>
           </form>
 
         </Form>
