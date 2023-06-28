@@ -4,16 +4,6 @@ import Award from './Award';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 let data = [
-  // Good Conduct and Scholarship
-  {
-    img: process.env.PUBLIC_URL+'/goodF2.jpg',
-    disc: "I didn't have a single violation in the whole school year when I was F2, and I was a student of good conduct, so I won the scholarship"
-  },
-  {
-    img: process.env.PUBLIC_URL+'/goodF4.jpg',
-    disc: "I didn't have a single violation in the whole school year when I was F4, and I was a student of good conduct, so I won the scholarship"
-  },
-  
   // Programming Competitions
   
   {
@@ -35,6 +25,20 @@ let data = [
   {
     img: process.env.PUBLIC_URL+'/moic2023.jpg',
     disc: "F5 participated in the Macau Olympiad in Informatics Trials. I was the only one in the whole school to enter the second round and finally won the bronze medal"
+  },
+  {
+    img: process.env.PUBLIC_URL+'/學界2023.jpg',
+    disc: "Participated in Tencent's virtual simulation robot at F5, won the third place in the academic high school group, and will participate in Tencent Youth AI Dream Camp"
+  },
+
+  // Good Conduct and Scholarship
+  {
+    img: process.env.PUBLIC_URL+'/goodF2.jpg',
+    disc: "I didn't have a single violation in the whole school year when I was F2, and I was a student of good conduct, so I won the scholarship"
+  },
+  {
+    img: process.env.PUBLIC_URL+'/goodF4.jpg',
+    disc: "I didn't have a single violation in the whole school year when I was F4, and I was a student of good conduct, so I won the scholarship"
   },
 
   // Microsoft Office Certifications
@@ -59,7 +63,7 @@ let data = [
   {
     img: process.env.PUBLIC_URL+'/quiz2022.jpg',
     disc: "I formed a team with another classmate and participated in the IT quiz competition, covering a wide range of topics including hardware, software, and network, and finally won the fourth place"
-  },
+  }
 
 ];
 
