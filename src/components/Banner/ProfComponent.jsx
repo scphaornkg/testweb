@@ -26,7 +26,7 @@ const ProfComponent = () => {
           Having a deep-rooted interest in math and coding, a path in Information Technology was pursued. Overcame hurdles in initial C language learning, fostering self-study. Participation in programming competitions solidified a commitment to cybersecurity. Alongside coding, a grasp of networking basics was achieved. With technology rapidly advancing, there is an aspiration to further studies in Computer Science in Taiwan, aiming to contribute to cybersecurity.
           </p>
           <button onClick={() => {
-            const element = document.querySelector('#service');
+            const element = document.querySelector('#skill');
             element && element.scrollIntoView({ behavior: 'smooth' });
           }}>Let's talk</button>
           <Social>
