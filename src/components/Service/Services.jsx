@@ -33,7 +33,7 @@ const Services = () => {
         <Slide direction="right">
           <Card
             Icon={CgWebsite}
-            title={"web designer"}
+            title={"web developer"}
             disc={`HTML and CSS are also one of my specialties. I developed web pages and maintained servers for the programming class that I participated in.`}
           />
         </Slide>

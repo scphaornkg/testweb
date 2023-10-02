@@ -94,7 +94,7 @@ const Footer = () => {
             
             <Zoom>
               <span>
-                <a href="https://www.facebook.com/chongpuitaiwan">
+                <a href="https://www.facebook.com/profile.php?id=61550049120218">
                   <BsFacebook />
                 </a>
               </span>

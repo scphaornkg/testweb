@@ -1,20 +1,23 @@
 import React from 'react'
 import styled from 'styled-components';
-
+// Award.jsx
 const Award = (props) => {
     const { img, disc } = props.item;
-  return (
-    <Container className='Award'>
-        <img src={img} alt="Award" />
+    const { onImageClick } = props;  // 这里从 props 而不是 props.item 中解构
+  
+    console.log("onImageClick function:", onImageClick);  // 调试代码
+  
+    return (
+      <Container className='Award'>
+        <img src={img} alt="Award" onClick={() => onImageClick(img)} />
         <div className="disc">
-            <h1>Description</h1>
-            <p>{disc}
-            {/* <a href="/">demo</a> */}
-            </p>
+          <h1>Description</h1>
+          <p>{disc}</p>
         </div>
-    </Container>
-  )
-}
+      </Container>
+    );
+  };
+  
 
 export default Award;
 

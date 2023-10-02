@@ -202,7 +202,7 @@ const Services = () => {
             <h3 className="vertical-timeline-element-title">Backend engineer, Information security</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">Study C, EV3</h4> */}
             <p>
-              I am planning to attend the Department of Information Engineering in Taiwan and intend to join the cybersecurity club to participate in CTF competitions, starting with learning Web Security. In the future, I hope to become an information security specialist or a backend engineer.
+              I am planning to attend the Department of Computer Science in Taiwan and intend to join the information security club to participate in CTF competitions, starting with learning Web Security. In the future, I hope to pursue further studies in the United States, with the ultimate goal of working at a major company in Silicon Valley such as Google, Amazon, or Meta as an information security expert or backend engineer.
             </p>
 
           </VerticalTimelineElement>
